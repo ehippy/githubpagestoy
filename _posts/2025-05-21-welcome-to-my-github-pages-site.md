@@ -1,49 +1,49 @@
 ---
 layout: post
-title: "Welcome to My Modern GitHub Pages Site"
+title: "Welcome to My Totally Rad GitHub Pages Site"
 date: 2025-05-21 12:00:00 -0000
-categories: jekyll design
+categories: jekyll retro
 ---
 
 # Welcome to my first post!
 
-This is my first post on my new modern Jekyll site. Jekyll is a static site generator that makes it easy to create a beautiful website that can be published to GitHub Pages.
+This is my first post on my totally radical Jekyll site. Jekyll is like, so awesome - it makes creating websites as easy as popping a cassette into your Walkman!
 
-## What I've learned
+## What I've Learned (Like, Totally)
 
-- How to set up a Jekyll site with a modern design
-- How to customize layouts and styles for a professional look
-- How to incorporate modern UI elements and responsive design
-- How to publish to GitHub Pages with automated workflows
+- How to set up a Jekyll site with some major 80s vibes
+- How to customize layouts for maximum neon awesomeness
+- How to incorporate retro grid patterns and glow effects
+- How to publish to GitHub Pages faster than you can say "Gnarly!"
 
-### Code Example
+### Some Bodacious Code
 
-Here's how you might add a new post to your Jekyll site:
+Check out this rad code that helps create this awesome site:
 
 ```markdown
 ---
 layout: post
-title: "Your New Post Title"
+title: "Your New Radical Post"
 date: 2025-05-22 12:00:00 -0000
-categories: jekyll update
+categories: jekyll tubular
 ---
 
-# Welcome to your new post!
+# Like, Welcome to your new post!
 
-This is the content of your post.
+This content is totally awesome!
 ```
 
-### Images and Media
+### Images and Media (Max Coolness)
 
-Jekyll makes it easy to include images and other media in your posts. You can store them in an assets folder and reference them with relative URLs.
+Jekyll makes it easier than programming your VCR to include images and other media in your posts. Store them in the assets folder and they're ready to rock!
 
-## Next Steps
+## Next Radical Steps
 
-Here are some ideas for what to explore next:
+Here are some ideas that are totally worth checking out:
 
-1. Add custom domains to your GitHub Pages site
-2. Implement Jekyll collections for custom content types
-3. Create custom page layouts for different sections of your site
-4. Add comments with a service like Disqus
+1. Add a custom domain that's like, so fresh
+2. Create retro-themed collections for different types of content
+3. Design special page layouts with more neon and scanlines
+4. Add a guestbook with Disqus (because comments are rad!)
 
-Check back soon for more updates on modern web development and Jekyll tips!
+Stay tuned for more updates that'll blow your mind! 🎮🕹️📼
