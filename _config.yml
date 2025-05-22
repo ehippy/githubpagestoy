@@ -1,16 +1,22 @@
-title: GitHub Pages Toy
+title: Modern Design
 email: your-email@example.com
 description: >-
-  A simple Jekyll site that publishes to GitHub Pages.
+  A modern Jekyll site with clean design and responsive layout.
 baseurl: "/githubpagestoy" # the subpath of your site, e.g. /blog
 url: "https://ehippy.github.io" # Your GitHub username
 github_username: ehippy # Your GitHub username
+
+# Social media
+twitter_username: your_twitter
+linkedin_username: your_linkedin
+dribbble_username: your_dribbble
 
 # Build settings
 theme: minima
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
+  - jekyll-sitemap
 
 # Exclude from processing
 exclude:

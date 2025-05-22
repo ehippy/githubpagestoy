@@ -5,39 +5,84 @@ permalink: /about/
 ---
 
 <div class="about-section">
-  <h1><i class="fas fa-info-circle"></i> About This Radical Site</h1>
+  <h1>About</h1>
   
-  <p class="lead">Welcome to my totally tubular 80s-inspired Jekyll site! This bodacious creation showcases the gnarly aesthetics of the 1980s with neon colors, radical grid patterns, and some seriously rad design!</p>
+  <p class="lead">We focus on creating clean, minimal designs that prioritize content and usability.</p>
 
-  <div class="features">
-    <h2><i class="fas fa-star"></i> Totally Awesome Features</h2>
+  <div class="card">
+    <h2>What We Do</h2>
     
-    <div class="feature-grid">
+    <div class="grid">
       <div class="feature">
-        <h3><i class="fab fa-jekyll"></i> Built with Jekyll</h3>
-        <p>Fast, fresh, and totally radical static site generation that makes blogging bodacious!</p>
+        <h3>Jekyll Framework</h3>
+        <p>Built with Jekyll, a static site generator that provides fast loading speeds and robust security features.</p>
       </div>
       
       <div class="feature">
-        <h3><i class="fab fa-github"></i> GitHub Pages Power</h3>
-        <p>Hosted on the max cool platform for developers - no need for bogus hosting!</p>
-      </div>
-      
-      <div class="feature">
-        <h3><i class="fas fa-palette"></i> 80s Neon Design</h3>
-        <p>Gnarly color scheme with hot pink, cyan, and yellow that would make even Tron jealous!</p>
-      </div>
-      
-      <div class="feature">
-        <h3><i class="fas fa-bolt"></i> Radical Performance</h3>
-        <p>This site loads faster than your Walkman can play "Take On Me"!</p>
+        <h3>GitHub Pages</h3>
+        <p>Hosted on GitHub Pages, providing reliable, scalable hosting with seamless deployment capabilities.</p>
       </div>
     </div>
   </div>
   
-  <div class="cta">
-    <h2>Want to Get Your Own Rad Site?</h2>
-    <p>Check out the <a href="https://jekyllrb.com/docs/" target="_blank">Jekyll documentation</a> or visit the <a href="https://github.com/ehippy/githubpagestoy" target="_blank">GitHub repository</a> for this totally awesome site!</p>
-    <a href="https://github.com/ehippy/githubpagestoy" class="button"><i class="fab fa-github"></i> View on GitHub</a>
+  <div class="cta-section">
+    <h2>Get In Touch</h2>
+    <p>Interested in working with us or have questions about our projects?</p>
+    <div class="button-group">
+      <a href="mailto:{{ site.email }}" class="button">Contact Us</a>
+      <a href="https://github.com/{{ site.github_username }}/{{ site.baseurl | split: '/' | last }}" class="button secondary">View on GitHub</a>
+    </div>
+  </div>
+</div>
+  
+  <div class="team-section">
+    <h2>Our Team</h2>
+    
+    <div class="grid">
+      <div class="card team-member">
+        <img src="https://via.placeholder.com/150" alt="Team Member" class="avatar">
+        <h3>Jane Doe</h3>
+        <p class="position">Lead Designer</p>
+        <p>With over 10 years of experience in UI/UX design, Jane creates beautiful and functional interfaces.</p>
+        <div class="social-links">
+          <a href="#">LinkedIn</a>
+          <a href="#">Twitter</a>
+          <a href="#">GitHub</a>
+        </div>
+      </div>
+      
+      <div class="card team-member">
+        <img src="https://via.placeholder.com/150" alt="Team Member" class="avatar">
+        <h3>John Smith</h3>
+        <p class="position">Developer</p>
+        <p>John is a full-stack developer passionate about creating clean, efficient code.</p>
+        <div class="social-links">
+          <a href="#">LinkedIn</a>
+          <a href="#">Twitter</a>
+          <a href="#">GitHub</a>
+        </div>
+      </div>
+      
+      <div class="card team-member">
+        <img src="https://via.placeholder.com/150" alt="Team Member" class="avatar">
+        <h3>Alex Johnson</h3>
+        <p class="position">Content Strategist</p>
+        <p>Alex crafts compelling narratives and ensures content aligns with strategic goals.</p>
+        <div class="social-links">
+          <a href="#">LinkedIn</a>
+          <a href="#">Twitter</a>
+          <a href="#">GitHub</a>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <div class="cta-section">
+    <h2>Get In Touch</h2>
+    <p>Interested in working with us or have questions about our projects? We'd love to hear from you.</p>
+    <div class="button-group">
+      <a href="mailto:{{ site.email }}" class="button">Email Us</a>
+      <a href="https://github.com/{{ site.github_username }}/{{ site.baseurl | split: '/' | last }}" class="button secondary">View on GitHub</a>
+    </div>
   </div>
 </div>
