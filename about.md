@@ -25,16 +25,6 @@ permalink: /about/
     </div>
   </div>
   
-  <div class="cta-section">
-    <h2>Get In Touch</h2>
-    <p>Interested in working with us or have questions about our projects?</p>
-    <div class="button-group">
-      <a href="mailto:{{ site.email }}" class="button">Contact Us</a>
-      <a href="https://github.com/{{ site.github_username }}/{{ site.baseurl | split: '/' | last }}" class="button secondary">View on GitHub</a>
-    </div>
-  </div>
-</div>
-  
   <div class="team-section">
     <h2>Our Team</h2>
     
@@ -85,4 +75,4 @@ permalink: /about/
       <a href="https://github.com/{{ site.github_username }}/{{ site.baseurl | split: '/' | last }}" class="button secondary">View on GitHub</a>
     </div>
   </div>
-</div>
+</div> <!-- End of about-section -->
