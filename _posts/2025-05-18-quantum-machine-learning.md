@@ -3,6 +3,7 @@ layout: post
 title: "Quantum Machine Learning: Computing's Next Paradigm Shift"
 date: 2025-05-18 08:30:00 -0000
 categories: ai quantum-computing machine-learning
+image: https://images.unsplash.com/photo-1635070041078-e363dbe005cb?w=1200&h=600&crop=entropy&fit=crop
 ---
 
 # Quantum Machine Learning: Computing's Next Paradigm Shift

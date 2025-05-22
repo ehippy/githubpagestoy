@@ -3,6 +3,7 @@ layout: post
 title: "Trustworthy AI: Beyond Fairness to Systemic Accountability"
 date: 2025-05-19 11:10:00 -0000
 categories: ai ethics trustworthy accountability
+image: https://images.unsplash.com/photo-1633613286991-611fe299c4be?w=1200&h=600&crop=entropy&fit=crop
 ---
 
 # Trustworthy AI: Beyond Fairness to Systemic Accountability

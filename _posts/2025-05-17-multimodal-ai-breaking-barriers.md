@@ -3,6 +3,7 @@ layout: post
 title: "Multimodal AI: Breaking Down the Barriers Between Senses"
 date: 2025-05-17 14:20:00 -0000
 categories: ai multimodal-systems vision-language-models
+image: https://images.unsplash.com/photo-1550751827-4bd374c3f58b?w=1200&h=600&crop=entropy&fit=crop
 ---
 
 # Multimodal AI: Breaking Down the Barriers Between Senses

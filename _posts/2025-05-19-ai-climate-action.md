@@ -3,6 +3,7 @@ layout: post
 title: "AI for Climate Action: Computational Solutions to Our Greatest Challenge"
 date: 2025-05-19 17:30:00 -0000
 categories: ai climate-change sustainability
+image: https://images.unsplash.com/photo-1446776811953-b23d57bd21aa?w=1200&h=600&crop=entropy&fit=crop
 ---
 
 # AI for Climate Action: Computational Solutions to Our Greatest Challenge

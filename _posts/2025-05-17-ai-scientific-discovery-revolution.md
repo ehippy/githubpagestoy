@@ -3,6 +3,7 @@ layout: post
 title: "AI in Scientific Discovery: Revolutionizing How We Explore the Unknown"
 date: 2025-05-17 19:45:00 -0000
 categories: ai science research discovery
+image: https://images.unsplash.com/photo-1532187863486-abf9dbad1b69?w=1200&h=600&crop=entropy&fit=crop
 ---
 
 # AI in Scientific Discovery: Revolutionizing How We Explore the Unknown

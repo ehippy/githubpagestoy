@@ -3,6 +3,7 @@ layout: post
 title: "The Future of Programming: AI Pair Programmers and the Developer Experience Revolution"
 date: 2025-05-20 10:00:00 -0000
 categories: ai software-development coding-assistants
+image: https://images.unsplash.com/photo-1607705703571-c5a8695f18f6?w=1200&h=600&crop=entropy&fit=crop
 ---
 
 # The Future of Programming: AI Pair Programmers and the Developer Experience Revolution

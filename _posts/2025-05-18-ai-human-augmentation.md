@@ -3,6 +3,7 @@ layout: post
 title: "AI-Human Augmentation: Redefining the Boundaries of Human Capability"
 date: 2025-05-18 16:15:00 -0000
 categories: ai human-augmentation cognitive-enhancement
+image: https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?w=1200&h=600&crop=entropy&fit=crop
 ---
 
 # AI-Human Augmentation: Redefining the Boundaries of Human Capability

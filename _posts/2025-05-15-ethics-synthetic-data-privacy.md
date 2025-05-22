@@ -3,6 +3,7 @@ layout: post
 title: "The Ethics of Synthetic Data: Solving AI's Privacy Paradox"
 date: 2025-05-15 11:45:00 -0000
 categories: ai ethics synthetic-data privacy
+image: https://images.unsplash.com/photo-1639322537066-a0c394275d05?w=1200&h=600&crop=entropy&fit=crop
 ---
 
 # The Ethics of Synthetic Data: Solving AI's Privacy Paradox

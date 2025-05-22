@@ -3,6 +3,7 @@ layout: post
 title: "Neuromorphic Computing: The Brain-Inspired Future of AI Hardware"
 date: 2025-05-16 10:15:00 -0000
 categories: ai hardware neuromorphic-computing
+image: https://images.unsplash.com/photo-1544511916-0148ccdeb877?w=1200&h=600&crop=entropy&fit=crop
 ---
 
 # Neuromorphic Computing: The Brain-Inspired Future of AI Hardware

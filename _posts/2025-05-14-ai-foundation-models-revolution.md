@@ -3,6 +3,7 @@ layout: post
 title: "Foundation Models: The Silent Revolution in AI"
 date: 2025-05-14 09:30:00 -0000
 categories: ai research foundation-models
+image: https://images.unsplash.com/photo-1677442135140-1d1c4307afed?w=1200&h=600&crop=entropy&fit=crop
 ---
 
 # Foundation Models: The Silent Revolution in AI
