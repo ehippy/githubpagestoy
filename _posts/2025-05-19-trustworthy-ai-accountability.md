@@ -3,12 +3,12 @@ layout: post
 title: "Trustworthy AI: Beyond Fairness to Systemic Accountability"
 date: 2025-05-19 11:10:00 -0000
 categories: ai ethics trustworthy accountability
-image: https://images.unsplash.com/photo-1633613286991-611fe299c4be?w=1200&h=600&crop=entropy&fit=crop
+image: https://placehold.co/1200x600/0066cc/ffffff/png?text=AI+Article+Image
 ---
 
 # Trustworthy AI: Beyond Fairness to Systemic Accountability
 
-![Abstract visualization of AI governance and oversight](https://images.unsplash.com/photo-1633613286991-611fe299c4be?w=1200&h=600&crop=entropy&fit=crop)
+![Abstract visualization of AI governance and oversight](https://placehold.co/1200x600/0066cc/ffffff/png?text=AI+Article+Image
 *Comprehensive AI governance frameworks are essential for responsible deployment*
 
 As AI systems take on increasingly consequential roles in society, the demand for trustworthy AI has evolved from academic concern to business imperative. Today's most advanced approaches are moving beyond narrow fairness metrics to comprehensive frameworks that ensure AI systems behave reliably, transparently, and in alignment with human values across their entire lifecycle.
@@ -17,7 +17,7 @@ As AI systems take on increasingly consequential roles in society, the demand fo
 
 Early approaches to responsible AI focused primarily on addressing bias in training data, but encountered significant limitations:
 
-![Dashboard showing AI fairness metrics and monitoring](https://images.unsplash.com/photo-1549923746-c502d488b3ea?w=800&h=500&crop=entropy&fit=crop){: .image-right}
+![Dashboard showing AI fairness metrics and monitoring](https://placehold.co/1200x600/0066cc/ffffff/png?text=AI+Article+Image
 
 - **Metric myopia**: Overemphasis on specific fairness metrics without considering broader impacts
 - **Static evaluation**: Point-in-time assessments failing to account for drift and emergent behaviors
@@ -37,7 +37,7 @@ Modern frameworks consider the entire AI lifecycle:
 - **Stakeholder involvement**: Including affected communities in decision-making processes
 - **Incident management**: Robust processes for detecting, addressing, and learning from failures
 
-![Comprehensive AI governance framework visualization](https://images.unsplash.com/photo-1590859808308-3d2d9c515b1a?w=800&h=500&crop=entropy&fit=crop)
+![Comprehensive AI governance framework visualization](https://placehold.co/1200x600/0066cc/ffffff/png?text=AI+Article+Image
 *Modern AI governance frameworks address the full lifecycle of AI systems and their impacts*
 
 ## Technical Innovations Enabling Trust
@@ -52,7 +52,7 @@ Advanced techniques for ensuring system reliability:
 - Runtime monitoring with anomaly detection and graceful degradation
 - Interpretability approaches that explain complex model behaviors
 
-![Explainable AI visualization showing model decision making](https://images.unsplash.com/photo-1563986768494-4dee2763ff3f?w=800&h=500&crop=entropy&fit=crop){: .image-left}
+![Explainable AI visualization showing model decision making](https://placehold.co/1200x600/0066cc/ffffff/png?text=AI+Article+Image
 
 ### Transparency Infrastructure
 

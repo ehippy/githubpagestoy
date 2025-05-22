@@ -3,12 +3,12 @@ layout: post
 title: "AI for Climate Action: Computational Solutions to Our Greatest Challenge"
 date: 2025-05-19 17:30:00 -0000
 categories: ai climate-change sustainability
-image: https://images.unsplash.com/photo-1446776811953-b23d57bd21aa?w=1200&h=600&crop=entropy&fit=crop
+image: https://placehold.co/1200x600/0066cc/ffffff/png?text=AI+Article+Image
 ---
 
 # AI for Climate Action: Computational Solutions to Our Greatest Challenge
 
-![Earth visualization with climate data overlays](https://images.unsplash.com/photo-1446776811953-b23d57bd21aa?w=1200&h=600&crop=entropy&fit=crop)
+![Earth visualization with climate data overlays](https://placehold.co/1200x600/0066cc/ffffff/png?text=AI+Article+Image
 *AI technologies are helping us understand and address climate change with unprecedented capabilities*
 
 Climate change represents humanity's most pressing existential challenge. While there's no silver bullet solution, artificial intelligence is emerging as a powerful accelerant across multiple climate action pathways—providing computational approaches to problems that have long seemed intractable.
@@ -17,7 +17,7 @@ Climate change represents humanity's most pressing existential challenge. While 
 
 Early applications of AI for climate focused narrowly on emissions tracking, but today's approaches are far more comprehensive:
 
-![Smart grid optimization visualization](https://images.unsplash.com/photo-1581084349663-3e5e1d7e1d4a?w=800&h=500&crop=entropy&fit=crop){: .image-right}
+![Smart grid optimization visualization](https://placehold.co/1200x600/0066cc/ffffff/png?text=AI+Article+Image
 
 - **Systemic optimization**: Addressing complex systems rather than isolated processes
 - **Intervention discovery**: Finding novel solutions humans might overlook
@@ -37,7 +37,7 @@ The transition to clean energy is being accelerated through:
 - **Energy forecasting**: Predicting renewable generation for grid stability
 - **Demand response**: Orchestrating millions of distributed energy resources
 
-![Renewable energy infrastructure with AI optimization](https://images.unsplash.com/photo-1466611653911-95081537e5b7?w=800&h=500&crop=entropy&fit=crop)
+![Renewable energy infrastructure with AI optimization](https://placehold.co/1200x600/0066cc/ffffff/png?text=AI+Article+Image
 *AI-optimized renewable energy systems are transforming power generation and distribution*
 
 ### Natural Systems Restoration
@@ -48,7 +48,7 @@ Protecting and enhancing nature's carbon sinks with:
 - **Regenerative agriculture**: Optimizing farming practices for soil carbon sequestration
 - **Ocean health tracking**: Monitoring marine ecosystems at unprecedented scale
 
-![Forest monitoring with AI and drone technology](https://images.unsplash.com/photo-1511497584788-876760111969?w=800&h=500&crop=entropy&fit=crop){: .image-left}
+![Forest monitoring with AI and drone technology](https://placehold.co/1200x600/0066cc/ffffff/png?text=AI+Article+Image
 
 ## From Insight to Action: Operation-Level Impact
 

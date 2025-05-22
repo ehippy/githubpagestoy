@@ -90,6 +90,37 @@ header h1 a:hover {
   color: var(--primary-color);
 }
 
+/* Site title styling */
+.site-title {
+  font-size: 1.8rem;
+  font-weight: bold;
+  color: var(--primary-color);
+  text-decoration: none;
+  display: inline-block;
+  padding: 0.5rem 0;
+  position: relative;
+  
+  &:hover {
+    color: var(--accent-color);
+  }
+  
+  &::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: var(--primary-color);
+    transform: scaleX(0);
+    transition: transform 0.3s ease;
+  }
+  
+  &:hover::after {
+    transform: scaleX(1);
+  }
+}
+
 /* Navigation */
 nav ul {
   display: flex;
@@ -1037,4 +1068,118 @@ body.dark-mode #theme-toggle {
 
 body.dark-mode #theme-toggle:hover {
   background-color: rgba(255,255,255,0.15);
+}
+
+/* Post card improvements */
+.post-card {
+  position: relative;
+  overflow: hidden;
+  padding: 2rem;
+  margin-bottom: 2rem;
+  background: var(--bg-color);
+  border-radius: 8px;
+  box-shadow: var(--card-shadow);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  
+  &:hover {
+    transform: translateY(-2px);
+    box-shadow: var(--hover-shadow);
+  }
+  
+  h2 {
+    margin-top: 0;
+    margin-bottom: 1rem;
+    font-size: 1.5rem;
+    
+    a {
+      color: var(--text-color);
+      text-decoration: none;
+      
+      &:hover {
+        color: var(--primary-color);
+      }
+    }
+  }
+  
+  .post-meta {
+    font-size: 0.9rem;
+    color: var(--light-text);
+    margin-bottom: 1rem;
+  }
+  
+  .post-excerpt {
+    color: var(--light-text);
+    line-height: 1.6;
+  }
+}
+
+/* Post header and image styles */
+.post-header {
+  margin-bottom: 2rem;
+  
+  &.has-image {
+    margin-top: -2rem;
+    margin-left: -2rem;
+    margin-right: -2rem;
+    
+    h1 {
+      margin-top: 1.5rem;
+    }
+  }
+  
+  .post-image-container {
+    height: 400px;
+    background: linear-gradient(135deg, var(--primary-color), var(--accent-color));
+    overflow: hidden;
+    position: relative;
+    
+    &.image-error {
+      height: 200px;
+      
+      &::after {
+        content: "AI Perspectives";
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        color: white;
+        font-size: 2rem;
+        font-weight: bold;
+        text-shadow: 0 2px 4px rgba(0,0,0,0.2);
+      }
+    }
+  }
+  
+  .post-header-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  h1 {
+    font-size: 2.5rem;
+    line-height: 1.2;
+    margin-bottom: 1rem;
+    padding: 0 2rem;
+  }
+  
+  .post-meta {
+    padding: 0 2rem;
+    font-size: 0.9rem;
+    color: var(--light-text);
+    
+    .post-date {
+      margin-right: 1rem;
+    }
+    
+    .category {
+      display: inline-block;
+      padding: 0.2rem 0.8rem;
+      margin-right: 0.5rem;
+      background: var(--primary-color);
+      color: white;
+      border-radius: 15px;
+      font-size: 0.8rem;
+    }
+  }
 }
