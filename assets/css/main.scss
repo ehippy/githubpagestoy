@@ -388,6 +388,23 @@ body.dark-mode footer {
   margin-top: 20px;
 }
 
+.post-meta {
+  margin-bottom: 20px;
+  color: var(--light-text);
+}
+
+.post-categories {
+  margin-left: 15px;
+}
+
+.category {
+  background-color: var(--light-gray);
+  padding: 3px 8px;
+  border-radius: 3px;
+  font-size: 0.9em;
+  margin-right: 5px;
+}
+
 .post-navigation {
   display: flex;
   justify-content: space-between;
@@ -400,54 +417,6 @@ body.dark-mode footer {
   padding: 8px 0;
 }
 
-/* About page styling */
-.about-section h1 {
-  margin-bottom: 20px;
-}
-
-.feature {
-  padding: 15px 0;
-}
-
-.cta-section {
-  margin-top: 40px;
-  padding: 30px;
-  background-color: var(--light-gray);
-  border-radius: 4px;
-  text-align: center;
-}
-
-.button-group {
-  display: flex;
-  gap: 15px;
-  justify-content: center;
-  margin-top: 20px;
-}
-
-.team-section {
-  margin-top: 60px;
-}
-
-.team-member {
-  text-align: center;
-}
-
-.avatar {
-  border-radius: 50%;
-  width: 120px;
-  height: 120px;
-  margin: 0 auto 15px;
-}
-
-.position {
-  color: var(--light-text);
-  margin-bottom: 10px;
-}
-
-.social-links {
-  margin-top: 15px;
-}
-
-.social-links a {
-  margin: 0 8px;
+.prev, .next {
+  max-width: 45%;
 }

@@ -7,9 +7,7 @@ url: "https://ehippy.github.io" # Your GitHub username
 github_username: ehippy # Your GitHub username
 
 # Social media
-twitter_username: your_twitter
-linkedin_username: your_linkedin
-dribbble_username: your_dribbble
+# Removed as not currently used
 
 # Build settings
 theme: minima
@@ -30,3 +28,8 @@ exclude:
   - vendor/cache/
   - vendor/gems/
   - vendor/ruby/
+  - README.md
+  - LICENSE
+  - CNAME
+  - .git/
+  - .gitignore
