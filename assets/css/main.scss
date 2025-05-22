@@ -18,6 +18,17 @@
   --shadow: 0 1px 2px rgba(0, 0, 0, 0.05); /* Subtle shadow */
   --card-shadow: 0 4px 6px rgba(0, 0, 0, 0.08); /* Card shadow */
   --hover-shadow: 0 6px 12px rgba(0, 0, 0, 0.12); /* Hover shadow */
+  
+  /* Dark theme variables (will be used when .dark-mode class is applied) */
+  --dark-bg-color: #121212;
+  --dark-card-bg: #1e1e1e;
+  --dark-text-color: #e0e0e0;
+  --dark-light-text: #b0b0b0;
+  --dark-medium-gray: #333333;
+  --dark-shadow: 0 1px 2px rgba(0, 0, 0, 0.15);
+  --dark-card-shadow: 0 4px 6px rgba(0, 0, 0, 0.25);
+  --dark-hover-shadow: 0 6px 12px rgba(0, 0, 0, 0.35);
+  --dark-border-color: #2a2a2a;
 }
 
 /* Base Reset */
@@ -760,4 +771,270 @@ body.dark-mode footer {
   border-radius: 8px;
   margin-bottom: 30px;
   box-shadow: var(--card-shadow);
+}
+
+/* Dark Mode Styles */
+body.dark-mode {
+  color: var(--dark-text-color);
+  background-color: var(--dark-bg-color);
+}
+
+body.dark-mode header,
+body.dark-mode footer {
+  background-color: var(--dark-bg-color);
+  border-color: var(--dark-border-color);
+}
+
+body.dark-mode .card,
+body.dark-mode .post-card,
+body.dark-mode .featured-card,
+body.dark-mode article,
+body.dark-mode .topic-card {
+  background-color: var(--dark-card-bg);
+  box-shadow: var(--dark-card-shadow);
+  border-color: var(--dark-border-color);
+}
+
+body.dark-mode .card:hover,
+body.dark-mode .post-card:hover,
+body.dark-mode .topic-card:hover {
+  box-shadow: var(--dark-hover-shadow);
+}
+
+body.dark-mode h1, 
+body.dark-mode h2, 
+body.dark-mode h3, 
+body.dark-mode h4, 
+body.dark-mode h5, 
+body.dark-mode h6,
+body.dark-mode a {
+  color: var(--dark-text-color);
+}
+
+body.dark-mode header h1 a:hover,
+body.dark-mode nav a:hover,
+body.dark-mode .post-card h2 a:hover,
+body.dark-mode .read-more:hover {
+  color: var(--accent-color);
+}
+
+body.dark-mode p,
+body.dark-mode li {
+  color: var(--dark-light-text);
+}
+
+body.dark-mode .meta,
+body.dark-mode .date,
+body.dark-mode figcaption {
+  color: var(--dark-light-text);
+}
+
+body.dark-mode blockquote {
+  border-color: var(--primary-color);
+  background-color: rgba(102, 153, 255, 0.1);
+}
+
+body.dark-mode code {
+  background-color: #2d2d2d;
+  color: #e0e0e0;
+}
+
+body.dark-mode pre {
+  background-color: #2d2d2d;
+  border-color: var(--dark-border-color);
+}
+
+body.dark-mode hr {
+  border-color: var(--dark-border-color);
+}
+
+body.dark-mode #theme-toggle {
+  color: var(--accent-color);
+}
+
+/* Transition for smooth theme switching */
+body, 
+a, 
+header, 
+footer, 
+.card, 
+.post-card, 
+.featured-card, 
+article, 
+.topic-card,
+blockquote, 
+code, 
+pre {
+  transition: all 0.3s ease;
+}
+
+/* Image Optimization Styles */
+.lazy-loaded {
+  transition: opacity 0.5s ease-in-out;
+}
+
+.progressive-image {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+}
+
+.progressive-image .placeholder {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-size: cover;
+  background-position: center;
+  filter: blur(15px);
+  transform: scale(1.1);
+  transition: opacity 0.5s ease-in-out;
+  z-index: 1;
+}
+
+.progressive-image img {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: 2;
+  transition: opacity 0.5s ease-in-out;
+}
+
+/* Cross-browser compatibility fixes */
+input, 
+button, 
+textarea, 
+select {
+  font-family: inherit;
+  font-size: inherit;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  border-radius: 0;
+}
+
+/* Vendor prefixes for flexbox for older browsers */
+.header-content,
+.footer-content,
+nav ul,
+.featured-post,
+.post-grid,
+.post-card {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.featured-post,
+.post-grid {
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+
+/* Transition utility */
+.transition {
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+/* Print styles */
+@media print {
+  header, 
+  footer, 
+  nav, 
+  .no-print {
+    display: none !important;
+  }
+  
+  body {
+    background: #fff !important;
+    color: #000 !important;
+    font-size: 12pt;
+  }
+  
+  a {
+    color: #000 !important;
+    text-decoration: underline;
+  }
+  
+  .container {
+    max-width: 100%;
+    width: 100%;
+  }
+  
+  img {
+    max-width: 500px !important;
+    page-break-inside: avoid;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    page-break-after: avoid;
+  }
+  
+  p, blockquote, ul, ol, dl, pre {
+    page-break-inside: avoid;
+  }
+}
+
+/* Animation utilities */
+
+/* Logo styling */
+.site-logo {
+  width: 200px;
+  height: 50px;
+  display: block;
+}
+
+/* Screen reader text */
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border-width: 0;
+}
+
+/* Theme toggle styling */
+#theme-toggle {
+  display: inline-flex;
+  align-items: center;
+  cursor: pointer;
+  padding: 5px 10px;
+  border-radius: 15px;
+  transition: background-color 0.3s ease;
+}
+
+#theme-toggle::before {
+  content: "";
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  margin-right: 5px;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='currentColor' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Ccircle cx='12' cy='12' r='5'%3E%3C/circle%3E%3Cline x1='12' y1='1' x2='12' y2='3'%3E%3C/line%3E%3Cline x1='12' y1='21' x2='12' y2='23'%3E%3C/line%3E%3Cline x1='4.22' y1='4.22' x2='5.64' y2='5.64'%3E%3C/line%3E%3Cline x1='18.36' y1='18.36' x2='19.78' y2='19.78'%3E%3C/line%3E%3Cline x1='1' y1='12' x2='3' y2='12'%3E%3C/line%3E%3Cline x1='21' y1='12' x2='23' y2='12'%3E%3C/line%3E%3Cline x1='4.22' y1='19.78' x2='5.64' y2='18.36'%3E%3C/line%3E%3Cline x1='18.36' y1='5.64' x2='19.78' y2='4.22'%3E%3C/line%3E%3C/svg%3E");
+  background-size: cover;
+}
+
+body.dark-mode #theme-toggle::before {
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='currentColor' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z'%3E%3C/path%3E%3C/svg%3E");
+}
+
+body.dark-mode #theme-toggle {
+  background-color: rgba(255,255,255,0.1);
+}
+
+#theme-toggle:hover {
+  background-color: rgba(0,0,0,0.05);
+}
+
+body.dark-mode #theme-toggle:hover {
+  background-color: rgba(255,255,255,0.15);
 }

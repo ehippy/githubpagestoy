@@ -10,21 +10,46 @@ document.addEventListener('DOMContentLoaded', () => {
     menuToggle.addEventListener('click', () => navMenu.classList.toggle('active'));
   }
   
-  // Theme toggle
+  // Theme toggle with enhanced features
   const themeToggle = document.getElementById('theme-toggle');
   if (themeToggle) {
-    // Check for saved theme preference
-    if (localStorage.getItem('darkMode') === 'true') {
-      document.body.classList.add('dark-mode');
-      themeToggle.textContent = 'Light';
+    // System preference detection
+    const prefersDarkScheme = window.matchMedia('(prefers-color-scheme: dark)');
+    
+    // Function to update theme
+    const updateTheme = (isDark) => {
+      document.body.classList.toggle('dark-mode', isDark);
+      themeToggle.textContent = isDark ? 'Light' : 'Dark';
+      localStorage.setItem('darkMode', isDark);
+      
+      // Update meta theme-color for browsers that support it
+      const metaThemeColor = document.querySelector('meta[name="theme-color"]');
+      if (metaThemeColor) {
+        metaThemeColor.setAttribute('content', isDark ? '#121212' : '#0066cc');
+      }
+    };
+    
+    // Initial theme setup based on: 1. Local storage preference, 2. System preference
+    const storedPreference = localStorage.getItem('darkMode');
+    if (storedPreference !== null) {
+      updateTheme(storedPreference === 'true');
+    } else if (prefersDarkScheme.matches) {
+      updateTheme(true);
     }
     
+    // Toggle theme when button is clicked
     themeToggle.addEventListener('click', e => {
       e.preventDefault();
-      document.body.classList.toggle('dark-mode');
-      const isDarkMode = document.body.classList.contains('dark-mode');
-      localStorage.setItem('darkMode', isDarkMode);
-      themeToggle.textContent = isDarkMode ? 'Light' : 'Dark';
+      const isDarkMode = !document.body.classList.contains('dark-mode');
+      updateTheme(isDarkMode);
+    });
+    
+    // Listen for system preference changes
+    prefersDarkScheme.addEventListener('change', e => {
+      // Only update automatically if user hasn't set a preference
+      if (localStorage.getItem('darkMode') === null) {
+        updateTheme(e.matches);
+      }
     });
   }
   
